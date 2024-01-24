@@ -7,12 +7,7 @@
                         <span>Main Menu</span>
                     </li>
                     <li class="submenu active">
-                        <a href="#"><i class="feather-grid"></i> <span> Dashboard</span> <span class="menu-arrow"></span></a>
-                        <ul>
-                            <li><a href="index.html" class="active">Admin Dashboard</a></li>
-                            <li><a href="teacher-dashboard.html">Teacher Dashboard</a></li>
-                            <li><a href="student-dashboard.html">Student Dashboard</a></li>
-                        </ul>
+                        <router-link to="/"><i class="feather-grid"></i> <span> Dashboard</span> </router-link>                     
                     </li>
                     <li class="submenu">
                         <a href="#"><i class="fas fa-graduation-cap"></i> <span> Students</span> <span class="menu-arrow"></span></a>

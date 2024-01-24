@@ -2,6 +2,12 @@
     <div>
         <Aside></Aside>
         <Navbar></Navbar>
+        <div class="page-wrapper">
+            <div class="content container-fluid">
+        <router-view></router-view>
+    </div>
+
+</div>
 
     </div>
 </template>

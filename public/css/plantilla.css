@@ -2186,8 +2186,8 @@ div.dataTables_wrapper div.dataTables_length select {
 }
 
 .header .header-left .logo img {
-    max-height: 40px;
-    width: auto
+    max-height: 210px;
+    width: 210px;
 }
 
 .header-left .logo.logo-small {
